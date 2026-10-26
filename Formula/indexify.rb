@@ -1,11 +1,9 @@
 class Indexify < Formula
   desc "Search PDF, Markdown and Word documents from your terminal"
   homepage "https://github.com/arrxy/indexify"
-  url "https://github.com/arrxy/indexify/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "5fce3650953acb12ee4a488a4f3cbb27b98f0c9e3816861e9bad073c2ae0fb13"
-
-  # Add a license declaration matching your chosen LICENSE file.
-  # For example: license "MIT"
+  url "https://github.com/arrxy/indexify/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "1f0b14d4210d5c8ec0bf7352b31b4868f451311fb729495bb184cdb2ba3033e3"
+  license "MIT"
 
   depends_on "rust" => :build
 
